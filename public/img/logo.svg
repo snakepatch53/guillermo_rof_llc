@@ -1,0 +1,22 @@
+<svg
+	class="logo-svg"
+	version="1.1"
+	id="Capa_1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	x="0px"
+	y="0px"
+	viewBox="0 0 400 300"
+	enable-background="new 0 0 400 300"
+	xml:space="preserve">
+	<style type="text/css">
+		.logo-svg {
+			--s1: red;
+			--s2: #FBAA2D;
+		}
+		.logo-s1{fill:var(--s1);}
+		.logo-s2{fill:var(--s2);}
+	</style>
+	<path class="logo-s1" d="M9,287L179.637,20.74c0,0,24.061-31.114,46.925,6.39 C249.426,64.634,394,280.61,394,280.61l-52.258-1.065L202.033,65.472c0,0-3.235-6.039-7.465,2.13S56.992,276.35,56.992,276.35 l-2.133,4.26L9,287z"/>
+	<path class="logo-s2" d="M195.726,146.92c17.579,0,31.829,14.253,31.829,31.836 c0,17.583-14.25,31.836-31.829,31.836c-17.578,0-31.828-14.253-31.828-31.836C163.897,161.173,178.147,146.92,195.726,146.92z"/>
+</svg>

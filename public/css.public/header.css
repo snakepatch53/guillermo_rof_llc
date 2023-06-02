@@ -1,0 +1,372 @@
+header {
+    /*    --bg: var(--color1-translucent);*/
+
+    --bg-float: var(--color1-translucent);
+    --bg: var(--color1);
+    --txt: var(--color1-text);
+    --bg-logo-s1: var(--color1-logo-s1);
+    --bg-logo-s2: var(--color1-logo-s2);
+    --bg-logo-s3: var(--color1-logo-s3);
+    --txt-logo: var(--color1-logo-text);
+
+    --bg-btn: var(--color1-btn);
+    --txt-btn: var(--color1-btn-text);
+
+    --bg-nav-movil: var(--color5);
+    --txt-nav-movil: var(--color5-text);
+    --bg-btn-movil: var(--color5-btn);
+    --txt-btn-movil: var(--color5-btn-text);
+
+
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: var(--header-height);
+}
+
+header .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 var(--padding);
+}
+
+header.float .header {
+    background-color: var(--bg-float);
+    backdrop-filter: blur(5px);
+}
+
+header .container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    max-width: var(--max-width);
+    height: 100%;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100%;
+    padding: 10px 0;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+header .logo svg {
+    height: 100%;
+    max-height: 60px;
+
+
+    --s1: var(--bg-logo-s1);
+    --s2: var(--bg-logo-s2);
+    --s3: var(--bg-logo-s3);
+}
+
+header .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+header .logo h1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    padding-top: 10px;
+    font-family: logo;
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 1.2rem;
+    text-transform: uppercase;
+    color: var(--txt-logo);
+
+}
+
+
+header nav {
+    flex: 1;
+    display: flex;
+    height: 100%;
+}
+
+header nav ul {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    height: 100%;
+    list-style: none;
+}
+
+header nav li {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav li .btn,
+header nav li a {
+    text-decoration: none;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    color: var(--txt);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+header nav li a.active,
+header nav li a:hover,
+header nav li .btn:hover,
+header nav li .btn:active {
+    transform: scale(1.05);
+    font-weight: bold;
+    opacity: 1;
+    transition: all 0.2s ease;
+}
+
+header nav li .btn:active {
+    transform: scale(1);
+    opacity: 1 !important;
+}
+
+header nav li .btn {
+    font-weight: bold;
+    background-color: var(--bg-btn);
+    color: var(--txt-btn);
+    opacity: 1;
+}
+
+header nav li a,
+header nav li .btn:hover {
+    opacity: 0.7;
+    transition: all 0.2s ease;
+}
+
+header .burger-toggle {
+    display: none;
+    margin-left: auto;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+header .burger-toggle:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+header .burger-toggle i {
+    font-size: 1.2rem;
+    color: var(--txt);
+}
+
+header nav li button.btn-darkmode {
+    position: relative;
+    display: flex;
+    gap: 3px;
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 50px;
+    background: #000;
+    transition: all 0.2s ease;
+    margin-left: auto;
+}
+
+header nav li button.btn-darkmode:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 2px;
+    content: '';
+    display: block;
+    height: calc(100% - 4px);
+    aspect-ratio: 1/1;
+    margin: auto;
+    background: #bcbcbc;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+body.dark header nav li button.btn-darkmode:before {
+    background: #414141;
+    left: unset;
+    right: 2px;
+    transition: all 0.2s ease;
+}
+
+body.dark header nav li button.btn-darkmode {
+    background: #ffffff;
+    transition: all 0.2s ease;
+}
+
+header nav li button.btn-darkmode i {
+    display: block;
+    aspect-ratio: 1/1;
+    padding: 3px;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+
+header nav li button.btn-darkmode i.dark {
+    color: #000;
+}
+
+header nav li button.btn-darkmode i.light {
+    color: #ffd347;
+}
+
+header .contact-component-modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 0;
+    height: 100vh;
+    max-height: 0;
+    padding: ;
+    margin: auto;
+    background: transparent;
+    backdrop-filter: blur(0px);
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+
+header .contact-component-modal.open {
+    opacity: 1;
+    max-width: 100%;
+    max-height: 100vh;
+    background: rgba(136, 136, 136, 0.5);
+    backdrop-filter: blur(10px);
+    padding: var(--padding);
+    transition: all 0.2s ease;
+}
+
+header .contact-component-modal .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 100%;
+}
+
+header .contact-component-modal .container .close-btn {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.2s ease;
+}
+
+header .contact-component-modal .container .close-btn:hover {
+    transform: scale(1.05);
+    opacity: 1;
+    transition: all 0.2s ease;
+}
+
+header .contact-component-modal .container .close-btn i {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media(max-width: 900px) {
+    header .burger-toggle {
+        display: block;
+    }
+
+    header nav {
+        position: fixed;
+        top: var(--header-height);
+        right: 0;
+        z-index: 100;
+        width: 100%;
+        max-width: 0;
+        overflow: hidden;
+        opacity: 0;
+        height: calc(100vh - var(--header-height));
+        background: var(--bg-nav-movil);
+        transition: all 0.2s ease;
+        padding: 30px 0;
+    }
+
+    header nav:before {
+        position: fixed;
+        top: var(--header-height);
+        left: 0;
+        z-index: -1;
+        content: '';
+        display: block;
+        width: 100%;
+        max-width: 0;
+        height: calc(100vh - var(--header-height));
+        background: rgba(0, 0, 0, 0.2);
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li a {
+        color: var(--txt-nav-movil);
+    }
+
+    header nav li button.btn-darkmode {
+        margin: auto;
+    }
+
+    header nav ul li a.btn {
+        background-color: var(--bg-btn-movil);
+        color: var(--txt-btn-movil);
+    }
+
+    header.menu-open nav {
+        max-width: 200px;
+        opacity: 1;
+        transition: all 0.2s ease;
+    }
+
+    header.menu-open nav:before {
+        max-width: 100%;
+    }
+
+    header.menu-open {
+        background-color: var(--bg);
+    }
+
+}

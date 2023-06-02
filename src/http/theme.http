@@ -1,0 +1,648 @@
+@api = http://localhost/constructora/services/theme/
+
+###
+POST {{api}}select
+
+### Body x-www-form-multipart
+POST {{api}}insert
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="theme_name"
+
+theme_name_value
+--boundary
+Content-Disposition: form-data; name="theme_danger"
+
+theme_danger_value
+--boundary
+Content-Disposition: form-data; name="theme_info"
+
+theme_info_value
+--boundary
+Content-Disposition: form-data; name="theme_warn"
+
+theme_warn_value
+--boundary
+Content-Disposition: form-data; name="theme_success"
+
+theme_success_value
+--boundary
+Content-Disposition: form-data; name="theme_color1"
+
+theme_color1_value
+--boundary
+Content-Disposition: form-data; name="theme_color1_translucent"
+
+theme_color1_translucent_value
+--boundary
+Content-Disposition: form-data; name="theme_color1_text"
+
+theme_color1_text_value
+--boundary
+Content-Disposition: form-data; name="theme_color1_text2"
+
+theme_color1_text2_value
+--boundary
+Content-Disposition: form-data; name="theme_color1_logo_s1"
+
+theme_color1_logo_s1_value
+--boundary
+Content-Disposition: form-data; name="theme_color1_logo_s2"
+
+theme_color1_logo_s2_value
+--boundary
+Content-Disposition: form-data; name="theme_color1_logo_s3"
+
+theme_color1_logo_s3_value
+--boundary
+Content-Disposition: form-data; name="theme_color1_logo_text"
+
+theme_color1_logo_text_value
+--boundary
+Content-Disposition: form-data; name="theme_color1_btn"
+
+theme_color1_btn_value
+--boundary
+Content-Disposition: form-data; name="theme_color1_btn_text"
+
+theme_color1_btn_text_value
+--boundary
+Content-Disposition: form-data; name="theme_color2"
+
+theme_color2_value
+--boundary
+Content-Disposition: form-data; name="theme_color2_text"
+
+theme_color2_text_value
+--boundary
+Content-Disposition: form-data; name="theme_color2_text2"
+
+theme_color2_text2_value
+--boundary
+Content-Disposition: form-data; name="theme_color4"
+
+theme_color4_value
+--boundary
+Content-Disposition: form-data; name="theme_color4_text"
+
+theme_color4_text_value
+--boundary
+Content-Disposition: form-data; name="theme_color4_text2"
+
+theme_color4_text2_value
+--boundary
+Content-Disposition: form-data; name="theme_color4_text3"
+
+theme_color4_text3_value
+--boundary
+Content-Disposition: form-data; name="theme_color4_logo_s1"
+
+theme_color4_logo_s1_value
+--boundary
+Content-Disposition: form-data; name="theme_color4_logo_s2"
+
+theme_color4_logo_s2_value
+--boundary
+Content-Disposition: form-data; name="theme_color4_logo_s3"
+
+theme_color4_logo_s3_value
+--boundary
+Content-Disposition: form-data; name="theme_color4_logo_text"
+
+theme_color4_logo_text_value
+--boundary
+Content-Disposition: form-data; name="theme_color5"
+
+theme_color5_value
+--boundary
+Content-Disposition: form-data; name="theme_color5_text"
+
+theme_color5_text_value
+--boundary
+Content-Disposition: form-data; name="theme_color5_text2"
+
+theme_color5_text2_value
+--boundary
+Content-Disposition: form-data; name="theme_color5_logo_s1"
+
+theme_color5_logo_s1_value
+--boundary
+Content-Disposition: form-data; name="theme_color5_logo_s2"
+
+theme_color5_logo_s2_value
+--boundary
+Content-Disposition: form-data; name="theme_color5_logo_s3"
+
+theme_color5_logo_s3_value
+--boundary
+Content-Disposition: form-data; name="theme_color5_logo_text"
+
+theme_color5_logo_text_value
+--boundary
+Content-Disposition: form-data; name="theme_color5_btn"
+
+theme_color5_btn_value
+--boundary
+Content-Disposition: form-data; name="theme_color5_btn_text"
+
+theme_color5_btn_text_value
+--boundary
+Content-Disposition: form-data; name="theme_color6"
+
+theme_color6_value
+--boundary
+Content-Disposition: form-data; name="theme_color6_text"
+
+theme_color6_text_value
+--boundary
+Content-Disposition: form-data; name="theme_color6_text2"
+
+theme_color6_text2_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_danger"
+
+theme_dark_danger_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_info"
+
+theme_dark_info_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_warn"
+
+theme_dark_warn_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_success"
+
+theme_dark_success_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color1"
+
+theme_dark_color1_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color1_translucent"
+
+theme_dark_color1_translucent_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color1_text"
+
+theme_dark_color1_text_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color1_text2"
+
+theme_dark_color1_text2_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color1_logo_s1"
+
+theme_dark_color1_logo_s1_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color1_logo_s2"
+
+theme_dark_color1_logo_s2_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color1_logo_s3"
+
+theme_dark_color1_logo_s3_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color1_logo_text"
+
+theme_dark_color1_logo_text_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color1_btn"
+
+theme_dark_color1_btn_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color1_btn_text"
+
+theme_dark_color1_btn_text_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color2"
+
+theme_dark_color2_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color2_text"
+
+theme_dark_color2_text_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color2_text2"
+
+theme_dark_color2_text2_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color4"
+
+theme_dark_color4_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color4_text"
+
+theme_dark_color4_text_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color4_text2"
+
+theme_dark_color4_text2_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color4_text3"
+
+theme_dark_color4_text3_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color4_logo_s1"
+
+theme_dark_color4_logo_s1_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color4_logo_s2"
+
+theme_dark_color4_logo_s2_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color4_logo_s3"
+
+theme_dark_color4_logo_s3_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color4_logo_text"
+
+theme_dark_color4_logo_text_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color5"
+
+theme_dark_color5_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color5_text"
+
+theme_dark_color5_text_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color5_text2"
+
+theme_dark_color5_text2_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color5_logo_s1"
+
+theme_dark_color5_logo_s1_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color5_logo_s2"
+
+theme_dark_color5_logo_s2_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color5_logo_s3"
+
+theme_dark_color5_logo_s3_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color5_logo_text"
+
+theme_dark_color5_logo_text_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color5_btn"
+
+theme_dark_color5_btn_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color5_btn_text"
+
+theme_dark_color5_btn_text_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color6"
+
+theme_dark_color6_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color6_text"
+
+theme_dark_color6_text_value
+--boundary
+Content-Disposition: form-data; name="theme_dark_color6_text2"
+
+theme_dark_color6_text2_value
+--boundary
+Content-Disposition: form-data; name="theme_last"
+
+theme_last_value
+--boundary
+Content-Disposition: form-data; name="theme_created"
+
+theme_created_value
+--boundary
+
+
+
+### Body x-www-form-multipart
+POST {{api}}update
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="theme_id"
+
+2
+--boundary
+Content-Disposition: form-data; name="theme_name"
+
+theme_name_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_danger"
+
+theme_danger_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_info"
+
+theme_info_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_warn"
+
+theme_warn_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_success"
+
+theme_success_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color1"
+
+theme_color1_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color1_translucent"
+
+theme_color1_translucent_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color1_text"
+
+theme_color1_text_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color1_text2"
+
+theme_color1_text2_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color1_logo_s1"
+
+theme_color1_logo_s1_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color1_logo_s2"
+
+theme_color1_logo_s2_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color1_logo_s3"
+
+theme_color1_logo_s3_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color1_logo_text"
+
+theme_color1_logo_text_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color1_btn"
+
+theme_color1_btn_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color1_btn_text"
+
+theme_color1_btn_text_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color2"
+
+theme_color2_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color2_text"
+
+theme_color2_text_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color2_text2"
+
+theme_color2_text2_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color4"
+
+theme_color4_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color4_text"
+
+theme_color4_text_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color4_text2"
+
+theme_color4_text2_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color4_text3"
+
+theme_color4_text3_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color4_logo_s1"
+
+theme_color4_logo_s1_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color4_logo_s2"
+
+theme_color4_logo_s2_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color4_logo_s3"
+
+theme_color4_logo_s3_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color4_logo_text"
+
+theme_color4_logo_text_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color5"
+
+theme_color5_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color5_text"
+
+theme_color5_text_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color5_text2"
+
+theme_color5_text2_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color5_logo_s1"
+
+theme_color5_logo_s1_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color5_logo_s2"
+
+theme_color5_logo_s2_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color5_logo_s3"
+
+theme_color5_logo_s3_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color5_logo_text"
+
+theme_color5_logo_text_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color5_btn"
+
+theme_color5_btn_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color5_btn_text"
+
+theme_color5_btn_text_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color6"
+
+theme_color6_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color6_text"
+
+theme_color6_text_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_color6_text2"
+
+theme_color6_text2_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_danger"
+
+theme_dark_danger_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_info"
+
+theme_dark_info_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_warn"
+
+theme_dark_warn_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_success"
+
+theme_dark_success_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color1"
+
+theme_dark_color1_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color1_translucent"
+
+theme_dark_color1_translucent_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color1_text"
+
+theme_dark_color1_text_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color1_text2"
+
+theme_dark_color1_text2_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color1_logo_s1"
+
+theme_dark_color1_logo_s1_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color1_logo_s2"
+
+theme_dark_color1_logo_s2_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color1_logo_s3"
+
+theme_dark_color1_logo_s3_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color1_logo_text"
+
+theme_dark_color1_logo_text_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color1_btn"
+
+theme_dark_color1_btn_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color1_btn_text"
+
+theme_dark_color1_btn_text_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color2"
+
+theme_dark_color2_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color2_text"
+
+theme_dark_color2_text_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color2_text2"
+
+theme_dark_color2_text2_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color4"
+
+theme_dark_color4_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color4_text"
+
+theme_dark_color4_text_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color4_text2"
+
+theme_dark_color4_text2_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color4_text3"
+
+theme_dark_color4_text3_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color4_logo_s1"
+
+theme_dark_color4_logo_s1_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color4_logo_s2"
+
+theme_dark_color4_logo_s2_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color4_logo_s3"
+
+theme_dark_color4_logo_s3_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color4_logo_text"
+
+theme_dark_color4_logo_text_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color5"
+
+theme_dark_color5_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color5_text"
+
+theme_dark_color5_text_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color5_text2"
+
+theme_dark_color5_text2_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color5_logo_s1"
+
+theme_dark_color5_logo_s1_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color5_logo_s2"
+
+theme_dark_color5_logo_s2_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color5_logo_s3"
+
+theme_dark_color5_logo_s3_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color5_logo_text"
+
+theme_dark_color5_logo_text_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color5_btn"
+
+theme_dark_color5_btn_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color5_btn_text"
+
+theme_dark_color5_btn_text_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color6"
+
+theme_dark_color6_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color6_text"
+
+theme_dark_color6_text_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_dark_color6_text2"
+
+theme_dark_color6_text2_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_last"
+
+theme_last_value_updated
+--boundary
+Content-Disposition: form-data; name="theme_created"
+
+theme_created_value_updated
+--boundary
+
+
+###
+POST {{api}}delete
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="theme_id"
+
+3

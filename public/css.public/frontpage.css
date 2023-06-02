@@ -1,0 +1,138 @@
+/*DETAILS ADDED LAST TIME | INI*/
+.frontpage {
+    height: calc(70vh) !important;
+}
+
+/*DETAILS ADDED LAST TIME | END*/
+
+.frontpage {
+    --bg: var(--color6);
+    --txt: var(--color6-text);
+
+    position: relative;
+    display: flex;
+    padding: var(--padding);
+    width: 100%;
+    /*    aspect-ratio: 2/1;*/
+    /*    max-height: 100vh;*/
+    height: calc(100vh - 150px);
+}
+
+.frontpage .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    max-width: var(--max-width);
+    height: 100%;
+    margin: auto;
+}
+
+.frontpage .container:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: var(--bg);
+}
+
+.frontpage .img-clouds {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -2;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    display: none;
+    /*    TODO: HABILITAR NUBE*/
+}
+
+.frontpage .slider {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -3;
+    width: 100%;
+    height: 100%;
+}
+
+.frontpage .slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    filter: grayscale(1);
+}
+
+.frontpage h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: titulo;
+    max-width: 650px;
+    color: var(--txt);
+    letter-spacing: 1px;
+    /*    position: relative;*/
+}
+
+.frontpage a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--txt);
+    text-decoration: none;
+    gap: 10px;
+    opacity: 0.65;
+    transition: all 0.2s ease;
+}
+
+.frontpage a:hover {
+    opacity: 1;
+    transition: all 0.2s ease;
+}
+
+.frontpage a:hover i {
+    transform: translateX(15px);
+    transition: all 0.2s ease;
+}
+
+.frontpage a span {
+    font-family: titulo;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.frontpage a i {
+    font-size: 1.1rem;
+    transition: all 0.2s ease;
+}
+
+@media (max-width: 900px) {
+    .frontpage {
+        aspect-ratio: none;
+        height: 50vh;
+    }
+
+    .frontpage h1 {
+        font-size: 1.4rem;
+    }
+
+    .frontpage .logo {
+        max-width: 100px;
+    }
+}
