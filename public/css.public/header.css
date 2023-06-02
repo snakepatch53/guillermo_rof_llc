@@ -283,7 +283,7 @@ header .contact-component-modal .container .close-btn {
     right: 20px;
     top: 20px;
     z-index: 1;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     width: 50px;
@@ -293,6 +293,10 @@ header .contact-component-modal .container .close-btn {
     cursor: pointer;
     opacity: 0.6;
     transition: all 0.2s ease;
+}
+
+header .contact-component-modal.open .container .close-btn {
+    display: flex;
 }
 
 header .contact-component-modal .container .close-btn:hover {
