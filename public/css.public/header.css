@@ -253,7 +253,7 @@ header .contact-component-modal {
     margin: auto;
     background: transparent;
     backdrop-filter: blur(0px);
-/*    opacity: 0;*/
+    opacity: 0;
     overflow: hidden;
     transition: all 0.2s ease;
 }
@@ -282,7 +282,7 @@ header .contact-component-modal .container .close-btn {
     position: fixed;
     right: 20px;
     top: 20px;
-    z-index: 100;
+    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
