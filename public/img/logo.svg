@@ -11,8 +11,8 @@
 	xml:space="preserve">
 	<style type="text/css">
 		.logo-svg {
-			--s1: red;
-			--s2: #FBAA2D;
+			--s1: #a31d3f;
+			--s2: #000000;
 		}
 		.logo-s1{fill:var(--s1);}
 		.logo-s2{fill:var(--s2);}
