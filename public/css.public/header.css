@@ -253,7 +253,7 @@ header .contact-component-modal {
     margin: auto;
     background: transparent;
     backdrop-filter: blur(0px);
-    opacity: 0;
+/*    opacity: 0;*/
     overflow: hidden;
     transition: all 0.2s ease;
 }
