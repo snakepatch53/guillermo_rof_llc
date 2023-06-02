@@ -250,12 +250,11 @@ header .contact-component-modal {
     max-width: 0;
     height: 100vh;
     max-height: 0;
-    padding: ;
     margin: auto;
     background: transparent;
     backdrop-filter: blur(0px);
-/*    opacity: 0;*/
-/*    overflow: hidden;*/
+    opacity: 0;
+    overflow: hidden;
     transition: all 0.2s ease;
 }
 
