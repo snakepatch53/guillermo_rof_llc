@@ -267,8 +267,8 @@ VALUES
     (
         2,
         'Root',
-        'erazobrothers',
-        'ZXa1A%1IC$KtMlb6',
+        'guillermoroofllc',
+        'D7Qn%rb$iZ3Olb0^3kZ3ySY5nmB',
         '2023-01-01 00:00:00',
         '2023-01-01 00:00:00'
     );
@@ -539,64 +539,46 @@ INSERT INTO
 VALUES
     (
         1,
-        'Patios',
-        'We remodel and fix your outdoor spaces to give you a different and lively style.',
+        'Roofing',
+        'Just as the foundation of your house, the roof is essential to the integrity of your home’s structure. A high-quality, properly installed roof offers benefits that a low-quality roof simply does not provide.',
         '1.jpg',
-        'Hello, I would like to know more about the patio construction service.',
+        'Hello, I would like to know more about the Roofing service.',
         '2023-01-01 00:00:00',
         '2023-01-01 00:00:00'
     ),
     (
         2,
-        'Retaining Walls',
-        'A retaining wall is important and needs to be very well built, we guarantee it.',
+        'Siding',
+        'Siding gives you a lot of options that will make your house look newly built. Not only that. It requires significantly less maintenance and doesn’t need to be repainted regularly.',
         '2.jpg',
-        'Hello, I would like to know more about the retaining wall construction service.',
+        'Hello, I would like to know more about the retaining Siding service.',
         '2023-01-01 00:00:00',
         '2023-01-01 00:00:00'
     ),
     (
         3,
-        'Sidewalks',
-        'Give your home a better presentation by building beautiful and elegant sidewalks.',
+        'Flat Roof',
+        'When choosing our roofing service, you can have peace of mind knowing that your roof will be in good hands. When we inspect it regularly, we will be able to catch issues in their early stages',
         '3.jpg',
-        'Hello, I would like to know more about the sidewalk construction service.',
+        'Hello, I would like to know more about the Flat Roof service.',
         '2023-01-01 00:00:00',
         '2023-01-01 00:00:00'
     ),
     (
         4,
-        'Lawn Care',
-        'Your lawn also deserves to have a good presentation, keep it trimmed and well cared for.',
+        'Painting',
+        'We provide free estimates and offer affordable services.',
         '4.jpg',
-        'Hello, I would like to know more about the lawn care service.',
+        'Hello, I would like to know more about the Painting service.',
         '2023-01-01 00:00:00',
         '2023-01-01 00:00:00'
     ),
     (
         5,
-        'Mulch',
-        'Apply the best organic material to your plots and give it life and color for longer.',
+        'House Renovation',
+        'This general construction company is reliable and honest.',
         '5.jpg',
-        'Hello, I would like to know more about the mulch service.',
-        '2023-01-01 00:00:00',
-        '2023-01-01 00:00:00'
-    ),
-    (
-        6,
-        'Trimming',
-        'Apply beautifiers and make your house have a different touch from the others.',
-        '6.jpg',
-        'Hello, I would like to know more about the trimming service.',
-        '2023-01-01 00:00:00',
-        '2023-01-01 00:00:00'
-    ),
-    (
-        7,
-        'Roofing',
-        'We repair and build roofs, we have the best materials and the best prices.',
-        '7.jpg',
-        'Hello, I would like to know more about the roofing service.',
+        'Hello, I would like to know more about the House Renovation service.',
         '2023-01-01 00:00:00',
         '2023-01-01 00:00:00'
     );
@@ -616,131 +598,130 @@ CREATE TABLE projects (
     FOREIGN KEY (service_id) REFERENCES services(service_id)
 ) ENGINE INNODB;
 
-INSERT INTO
-    projects
-VALUES
-    (
-        1,
-        'Project 1',
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-        '1.jpg',
-        '',
-        'website',
-        '2023-01-01 00:00:00',
-        '2023-01-01 00:00:00',
-        3
-    ),
-    (
-        2,
-        'Project 2',
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-        '2.jpg',
-        '',
-        'website',
-        '2023-01-01 00:00:00',
-        '2023-01-01 00:00:00',
-        6
-    ),
-    (
-        3,
-        'Project 3',
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-        '3.jpg',
-        '',
-        'website',
-        '2023-01-01 00:00:00',
-        '2023-01-01 00:00:00',
-        3
-    ),
-    (
-        4,
-        'Project 4',
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-        '4.jpg',
-        '',
-        'website',
-        '2023-01-01 00:00:00',
-        '2023-01-01 00:00:00',
-        1
-    ),
-    (
-        5,
-        'Project 5',
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-        '5.jpg',
-        '',
-        'website',
-        '2023-01-01 00:00:00',
-        '2023-01-01 00:00:00',
-        4
-    ),
-    (
-        6,
-        'Project 6',
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-        '6.jpg',
-        '',
-        'website',
-        '2023-01-01 00:00:00',
-        '2023-01-01 00:00:00',
-        7
-    ),
-    (
-        7,
-        'Project 7',
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-        '7.jpg',
-        '',
-        'website',
-        '2023-01-01 00:00:00',
-        '2023-01-01 00:00:00',
-        1
-    ),
-    (
-        8,
-        'Project 7',
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-        '8.jpg',
-        '',
-        'website',
-        '2023-01-01 00:00:00',
-        '2023-01-01 00:00:00',
-        1
-    ),
-    (
-        9,
-        'Project 9',
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-        '9.jpg',
-        '',
-        'website',
-        '2023-01-01 00:00:00',
-        '2023-01-01 00:00:00',
-        3
-    ),
-    (
-        10,
-        'Project 10',
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-        '9.jpg',
-        '',
-        'website',
-        '2023-01-01 00:00:00',
-        '2023-01-01 00:00:00',
-        3
-    ),
-    (
-        11,
-        'Project 11',
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-        '11.jpg',
-        '',
-        'website',
-        '2023-01-01 00:00:00',
-        '2023-01-01 00:00:00',
-        5
-    );
-
+-- INSERT INTO
+--     projects
+-- VALUES
+--     (
+--         1,
+--         'Project 1',
+--         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+--         '1.jpg',
+--         '',
+--         'website',
+--         '2023-01-01 00:00:00',
+--         '2023-01-01 00:00:00',
+--         3
+--     ),
+--     (
+--         2,
+--         'Project 2',
+--         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+--         '2.jpg',
+--         '',
+--         'website',
+--         '2023-01-01 00:00:00',
+--         '2023-01-01 00:00:00',
+--         6
+--     ),
+--     (
+--         3,
+--         'Project 3',
+--         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+--         '3.jpg',
+--         '',
+--         'website',
+--         '2023-01-01 00:00:00',
+--         '2023-01-01 00:00:00',
+--         3
+--     ),
+--     (
+--         4,
+--         'Project 4',
+--         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+--         '4.jpg',
+--         '',
+--         'website',
+--         '2023-01-01 00:00:00',
+--         '2023-01-01 00:00:00',
+--         1
+--     ),
+--     (
+--         5,
+--         'Project 5',
+--         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+--         '5.jpg',
+--         '',
+--         'website',
+--         '2023-01-01 00:00:00',
+--         '2023-01-01 00:00:00',
+--         4
+--     ),
+--     (
+--         6,
+--         'Project 6',
+--         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+--         '6.jpg',
+--         '',
+--         'website',
+--         '2023-01-01 00:00:00',
+--         '2023-01-01 00:00:00',
+--         7
+--     ),
+--     (
+--         7,
+--         'Project 7',
+--         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+--         '7.jpg',
+--         '',
+--         'website',
+--         '2023-01-01 00:00:00',
+--         '2023-01-01 00:00:00',
+--         1
+--     ),
+--     (
+--         8,
+--         'Project 7',
+--         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+--         '8.jpg',
+--         '',
+--         'website',
+--         '2023-01-01 00:00:00',
+--         '2023-01-01 00:00:00',
+--         1
+--     ),
+--     (
+--         9,
+--         'Project 9',
+--         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+--         '9.jpg',
+--         '',
+--         'website',
+--         '2023-01-01 00:00:00',
+--         '2023-01-01 00:00:00',
+--         3
+--     ),
+--     (
+--         10,
+--         'Project 10',
+--         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+--         '9.jpg',
+--         '',
+--         'website',
+--         '2023-01-01 00:00:00',
+--         '2023-01-01 00:00:00',
+--         3
+--     ),
+--     (
+--         11,
+--         'Project 11',
+--         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+--         '11.jpg',
+--         '',
+--         'website',
+--         '2023-01-01 00:00:00',
+--         '2023-01-01 00:00:00',
+--         5
+--     );
 DROP TABLE IF EXISTS mailbox;
 
 CREATE TABLE mailbox (
