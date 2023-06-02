@@ -598,130 +598,263 @@ CREATE TABLE projects (
     FOREIGN KEY (service_id) REFERENCES services(service_id)
 ) ENGINE INNODB;
 
--- INSERT INTO
---     projects
--- VALUES
---     (
---         1,
---         'Project 1',
---         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
---         '1.jpg',
---         '',
---         'website',
---         '2023-01-01 00:00:00',
---         '2023-01-01 00:00:00',
---         3
---     ),
---     (
---         2,
---         'Project 2',
---         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
---         '2.jpg',
---         '',
---         'website',
---         '2023-01-01 00:00:00',
---         '2023-01-01 00:00:00',
---         6
---     ),
---     (
---         3,
---         'Project 3',
---         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
---         '3.jpg',
---         '',
---         'website',
---         '2023-01-01 00:00:00',
---         '2023-01-01 00:00:00',
---         3
---     ),
---     (
---         4,
---         'Project 4',
---         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
---         '4.jpg',
---         '',
---         'website',
---         '2023-01-01 00:00:00',
---         '2023-01-01 00:00:00',
---         1
---     ),
---     (
---         5,
---         'Project 5',
---         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
---         '5.jpg',
---         '',
---         'website',
---         '2023-01-01 00:00:00',
---         '2023-01-01 00:00:00',
---         4
---     ),
---     (
---         6,
---         'Project 6',
---         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
---         '6.jpg',
---         '',
---         'website',
---         '2023-01-01 00:00:00',
---         '2023-01-01 00:00:00',
---         7
---     ),
---     (
---         7,
---         'Project 7',
---         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
---         '7.jpg',
---         '',
---         'website',
---         '2023-01-01 00:00:00',
---         '2023-01-01 00:00:00',
---         1
---     ),
---     (
---         8,
---         'Project 7',
---         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
---         '8.jpg',
---         '',
---         'website',
---         '2023-01-01 00:00:00',
---         '2023-01-01 00:00:00',
---         1
---     ),
---     (
---         9,
---         'Project 9',
---         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
---         '9.jpg',
---         '',
---         'website',
---         '2023-01-01 00:00:00',
---         '2023-01-01 00:00:00',
---         3
---     ),
---     (
---         10,
---         'Project 10',
---         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
---         '9.jpg',
---         '',
---         'website',
---         '2023-01-01 00:00:00',
---         '2023-01-01 00:00:00',
---         3
---     ),
---     (
---         11,
---         'Project 11',
---         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
---         '11.jpg',
---         '',
---         'website',
---         '2023-01-01 00:00:00',
---         '2023-01-01 00:00:00',
---         5
---     );
+INSERT INTO
+    projects
+VALUES
+    (
+        1,
+        'Project 1',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '1.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        1
+    ),
+    (
+        2,
+        'Project 2',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '2.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        1
+    ),
+    (
+        3,
+        'Project 3',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '3.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        1
+    ),
+    (
+        4,
+        'Project 4',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '4.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        1
+    ),
+    (
+        5,
+        'Project 5',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '5.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        2
+    ),
+    (
+        6,
+        'Project 6',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '6.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        2
+    ),
+    (
+        7,
+        'Project 7',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '7.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        2
+    ),
+    (
+        8,
+        'Project 8',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '8.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        2
+    ),
+    (
+        9,
+        'Project 9',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '9.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        3
+    ),
+    (
+        10,
+        'Project 10',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '10.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        3
+    ),
+    (
+        11,
+        'Project 11',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '11.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        3
+    ),
+    (
+        12,
+        'Project 12',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '12.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        3
+    ),
+    (
+        13,
+        'Project 13',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '13.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        4
+    ),
+    (
+        14,
+        'Project 14',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '14.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        4
+    ),
+    (
+        15,
+        'Project 15',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '15.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        4
+    ),
+    (
+        16,
+        'Project 16',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '16.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        4
+    ),
+    (
+        17,
+        'Project 17',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '17.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        5
+    ),
+    (
+        18,
+        'Project 18',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '18.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        5
+    ),
+    (
+        19,
+        'Project 19',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '19.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        5
+    ),
+    (
+        20,
+        'Project 20',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '20.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        5
+    ),
+    (
+        21,
+        'Project 21',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '21.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        5
+    ),
+    (
+        22,
+        'Project 22',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '22.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        5
+    ),
+    (
+        23,
+        'Project 23',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+        '23.jpg',
+        '',
+        'website',
+        '2023-01-01 00:00:00',
+        '2023-01-01 00:00:00',
+        5
+    );
+
 DROP TABLE IF EXISTS mailbox;
 
 CREATE TABLE mailbox (
