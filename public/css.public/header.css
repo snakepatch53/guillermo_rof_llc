@@ -163,7 +163,7 @@ header nav li .btn:hover {
 
 header .burger-toggle {
     position: relative;
-    z-index: 10000;
+    z-index: 100000;
     display: none;
     margin-left: auto;
     background-color: transparent;
