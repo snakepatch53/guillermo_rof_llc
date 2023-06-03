@@ -1,0 +1,99 @@
+.section-projects-slider {
+    --bg: var(--color4);
+    --txt: var(--color4-text);
+    --btn-bg: var(--color1);
+    --btn-txt: var(--color1-text);
+
+
+
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: var(--padding) 0;
+    background: var(--bg);
+}
+
+
+.section-projects-slider h2 {
+    font-family: titulo;
+    font-size: 2.5rem;
+    color: var(--txt);
+    text-align: center;
+    margin: 20px 0;
+}
+
+.section-projects-slider a.to-portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding: 15px;
+    border-radius: 3px;
+    background: var(--btn-bg);
+    color: var(--btn-txt);
+    text-decoration: none;
+    margin: auto;
+    transition: all 0.2s ease;
+}
+
+.section-projects-slider a.to-portfolio:hover {
+    opacity: 0.8;
+    transform: translateY(-5px);
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.4);
+    transition: all 0.2s ease;
+}
+
+.section-projects-slider a.to-portfolio span {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.section-projects-slider a.to-portfolio i {}
+
+.section-projects-slider .slider {
+    flex: 1;
+    width: 100%;
+}
+
+.section-projects-slider .slider .splide__list {
+    padding: var(--padding) 0 !important;
+}
+
+.section-projects-slider .slider .splide__track .splide__slide {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    min-height: 350px;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.section-projects-slider .slider .splide__track .splide__slide:hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease;
+}
+
+.section-projects-slider .slider .splide__track .splide__slide .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.section-projects-slider .slider .splide__track .splide__slide img {
+    flex: 1;
+    aspect-ratio: 1/1;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    pointer-events: all;
+    border-radius: 3px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.section-projects-slider .slider .splide__arrow {
+    display: none;
+}

@@ -19,6 +19,7 @@ $radapter->getHTML('/', 'home', function ($DATA) {
         'socials' => (new ContactDao($DATA['mysqlAdapter']))->select('social'),
         'qualities' => (new QualityDao($DATA['mysqlAdapter']))->select(3), // limit 3
         'services' => (new ServiceDao($DATA['mysqlAdapter']))->select(6), // limit 6
+        'projects' => (new ProjectDao($DATA['mysqlAdapter']))->select(),
     ];
 });
 
@@ -30,6 +31,7 @@ $radapter->getHTML('/index.php', 'home', function ($DATA) {
         'socials' => (new ContactDao($DATA['mysqlAdapter']))->select('social'),
         'qualities' => (new QualityDao($DATA['mysqlAdapter']))->select(3), // limit 3
         'services' => (new ServiceDao($DATA['mysqlAdapter']))->select(6), // limit 6
+        'projects' => (new ProjectDao($DATA['mysqlAdapter']))->select(),
     ];
 });
 

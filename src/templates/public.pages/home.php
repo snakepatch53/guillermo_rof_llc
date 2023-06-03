@@ -5,6 +5,8 @@
     <?php include('./src/templates/public.component/head.php') ?>
     <link rel="stylesheet" href="<?= $DATA['http_domain'] ?>public/css.public/home.css">
     <link rel="stylesheet" href="<?= $DATA['http_domain'] ?>public/css.public/frontpage.css">
+    <link rel="stylesheet" href="<?= $DATA['http_domain'] ?>public/library.general/splide/splide.min.css">
+    <link rel="stylesheet" href="<?= $DATA['http_domain'] ?>public/css.public/projects.slider.css">
 </head>
 
 <body>
@@ -18,7 +20,18 @@
             <?php include('./src/templates/public.component/frontpage.php') ?>
         </section>
 
-        <section class="section-1">
+        <section class="section-projects-slider">
+            <div class="container">
+                <h2>Our projects</h2>
+            </div>
+            <?php include('./src/templates/public.component/projects.slider.php') ?>
+            <a href="<?= $DATA['http_domain'] ?>portfolio" class="to-portfolio">
+                <span>View more projects</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </section>
+
+        <!-- <section class="section-1">
             <div class="subsection">
                 <div class="container">
                     <h2>An easier way to build</h2>
@@ -33,7 +46,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section class="section-2">
             <div class="container">
@@ -83,7 +96,9 @@
 
 <foot>
     <?php include('./src/templates/public.component/foot.php') ?>
+    <script src="<?= $DATA['http_domain'] ?>public/library.general/splide/splide.min.js"></script>
     <script src="<?= $DATA['http_domain'] ?>public/js.public/frontpage.component.js"></script>
+    <script src="<?= $DATA['http_domain'] ?>public/js.public/projects.slider.js"></script>
 </foot>
 
 </html>
